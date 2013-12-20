@@ -33,10 +33,12 @@ div.section-header {
     color: #333333;
     padding: 0px 15px 20px 12px;
 }
-/* Hide top strip with Jenkins title and search bar */
+/* Hide top strip with Jenkins title and search bar. Currently it is done with JS */
+/*
 #top-panel {
     display: none;
 }
+* */
 
 /* Style header and footer strips */
 .top-sticker-inner,

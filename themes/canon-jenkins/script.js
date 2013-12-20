@@ -36,4 +36,6 @@ document.observe("dom:loaded", function () {
     // Clear style attribute for main table
     $('main-table').style = null;
 
+    // remove top panel with Jenkins logo (as now we moved search and login fields down to the next header block)
+	$('top-panel').remove();
 });
