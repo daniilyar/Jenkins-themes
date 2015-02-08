@@ -1,0 +1,1 @@
+document.observe("dom:loaded",function(){var a=$$("#right-top-nav #right-top-nav div.smallfont");if(a.length>0){var b=new Element("span").update(a[0].innerHTML);$$("span.jenkins_ver")[0].insert({before:b})}$$("div.logo")[0].on("click",function(){location="/"})});
